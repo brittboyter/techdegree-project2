@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(255, 255, 251);
+    background-color: rgb(255, 255, 239);
    
 
 }
@@ -138,7 +138,13 @@ hr.divide {
 }
 
 @media (min-width: 768px) {
+
+.maincontainer {
+        margin-top: 50px;
     
+}
+
+
 ul li {
     display: inline;
     border-bottom: none;
@@ -170,26 +176,7 @@ ul a {
     float: right;
     width: 35%;
     margin: 15px;
-    
 
 }
 
-.maincontainer {
- margin-top: 50px;
-
 }
-
-.maincontainer img {
-    width: 35%;
-    position: relative;
-    margin: -4px auto;
-    display: flex;
-    flex-direction: column;
-    
-
-}
-
-
-
-}
-

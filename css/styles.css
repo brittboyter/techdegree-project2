@@ -137,11 +137,31 @@ hr.divide {
 
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
 @media (min-width: 768px) {
 
 .maincontainer {
-        margin-top: 50px;
-    
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.maincontainer img {
+  margin: 0;
+  padding: 10px;
+  width: initial;
+  max-width: 100%;
+}
+.maincontainer h2 {
+  flex-basis: 100%;
+}
+.maincontainer div {
+  flex-basis: 50%;
 }
 
 
@@ -175,6 +195,28 @@ ul a {
 .profile-image {
     float: right;
     width: 35%;
+    margin: 15px;
+
+}
+
+}
+
+@media (min-width: 1024px) {
+    .maincontainer div {
+      flex-basis: 33.333%;
+      margin: 0;
+    }
+
+.profile-image {
+    width: 33%;
+
+}
+
+.introduction p {
+    padding: 10px;
+    line-height: 35px;
+    font-size: 30px;
+    text-align: left;
     margin: 15px;
 
 }

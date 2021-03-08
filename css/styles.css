@@ -132,8 +132,13 @@ footer p {
     color: rgb(189, 174, 255);
 
 }
-hr.divide {
-    border: 1px solid #eee;
+
+#footername {
+    font-size: 25px;
+    color: rgb(189, 174, 255);
+    float: left;
+    font-family: 'Life Savers', cursive;
+    text-shadow: 4px 0 3px rgb(255, 220, 145);
 
 }
 
@@ -164,12 +169,10 @@ hr.divide {
   flex-basis: 50%;
 }
 
-
 ul li {
     display: inline;
     border-bottom: none;
-        
-         
+             
 }
     
 ul {

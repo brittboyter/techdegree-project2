@@ -59,7 +59,7 @@ ul a {
 
 }
 .profile-image, img {
-    width: 95%;
+    width: 287px;
     height: auto; 
     margin: .5rem;
 
@@ -123,8 +123,17 @@ footer {
 footer p b {
     background-color: rgb(189, 174, 255);
     color: rgb(255, 249, 159);
-    font-size: 12px;
+    font-size: 16px;
   
+
+}
+
+footer p {
+    color: rgb(189, 174, 255);
+
+}
+hr.divide {
+    border: 1px solid #eee;
 
 }
 

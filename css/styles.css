@@ -138,6 +138,7 @@ footer p {
     font-size: 13px;
     color: rgb(189, 174, 255);
     float: left;
+    margin-left: -5px;
     font-family: 'Life Savers', cursive;
     text-shadow: 4px 0 3px rgb(255, 220, 145);
 
@@ -148,10 +149,15 @@ footer p {
 }
 
 .bottomlink {
-    font-size: 12px;
+    font-size: 14px;
     float: right;
     color: rgb(189, 174, 255);
     text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px dashed rgb(214, 214, 214); 
+    
+
+   
 
 }
 

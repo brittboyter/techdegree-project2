@@ -249,7 +249,7 @@ ul a {
 
 .introduction p {
     padding: 10px;
-    line-height: 35px;
+    line-height: 65px;
     font-size: 30px;
     text-align: left;
     margin: 15px;
@@ -275,6 +275,24 @@ nav ul {
 ul a {
     padding: 5px;
 
+}
+footer p {
+    font-size: 20px;
+
+}
+
+h2, h3, h4 {
+    font-size: 2rem;
+
+}
+
+footer p b {
+    font-size: 20px;
+
+}
+
+p {
+    font-size: 20px;
 }
 } 
 

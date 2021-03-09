@@ -100,7 +100,7 @@ h3 {
 
 h4 {
     font-family: 'Life Savers', cursive;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: rgb(255, 220, 145);
     text-shadow: 4px 0 3px rgb(255, 249, 159);
     text-align: center;
@@ -113,32 +113,45 @@ h4 {
 
 footer {
     width: 100%;
-    margin: 0 auto;
     background-color: rgb(255, 254, 220);
     border-top: 2px dashed rgb(214, 214, 214); 
-    min-height: 300px;
+    padding: 7px;
+   
     
 }
 
 footer p b {
     background-color: rgb(189, 174, 255);
     color: rgb(255, 249, 159);
-    font-size: 16px;
+    font-size: 12px;
   
 
 }
 
 footer p {
     color: rgb(189, 174, 255);
+    font-size: 13px;
 
 }
 
 #footername {
-    font-size: 25px;
+    font-size: 13px;
     color: rgb(189, 174, 255);
     float: left;
     font-family: 'Life Savers', cursive;
     text-shadow: 4px 0 3px rgb(255, 220, 145);
+
+}
+
+.nav-2 {
+    display: none;
+}
+
+.bottomlink {
+    font-size: 12px;
+    float: right;
+    color: rgb(189, 174, 255);
+    text-decoration: none;
 
 }
 
@@ -208,7 +221,7 @@ ul a {
     .maincontainer div {
       flex-basis: 33.333%;
       margin: 0;
-    }
+}
 
 .profile-image {
     width: 33%;
@@ -223,5 +236,32 @@ ul a {
     margin: 15px;
 
 }
+
+#name {
+    height: 10vh;
+    margin-left: -480px;
+}
+
+nav ul {
+    display: inline;
+    float: right;
+    position: relative;
+    left: -75px;
+    margin: -70px;
+   
+    
+
+}
+
+ul a {
+    padding: 5px;
+
+}
+} 
+
+@media (min-width: 1300px) {
+    #name {
+        margin-left: -820px;
+    }
 
 }

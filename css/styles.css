@@ -28,27 +28,25 @@ body {
 
 nav ul {
     background-color: transparent;
-    margin-left: -27px;
+    padding: 0;
     
 }
 
 ul.no-bullets {
     list-style-type: none;
 
+
 }
 
 ul li {
-    display:  block;
+    display: block;
+    text-align: center;
     background-color:  transparent;
-    width: 83%;
-    padding-left: 0;
-    padding-bottom: 1px;
-    border-bottom: 1px solid #eee;
+    padding-bottom: .5em;
     
 }
 
-ul a {
-    text-align: left;
+ul a { 
     color: rgb(189, 174, 255);
     font-family: 'Life Savers', cursive;
     font-size: 23px;

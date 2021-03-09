@@ -5,6 +5,8 @@
 
 body {
     background-color: rgb(255, 255, 239);
+    margin-bottom: -100px;
+    
    
 
 }
@@ -48,6 +50,7 @@ ul li {
 
 ul a { 
     color: rgb(189, 174, 255);
+    text-shadow: 4px 0 3px rgb(255, 220, 145);
     font-family: 'Life Savers', cursive;
     font-size: 23px;
     letter-spacing: 4px;
@@ -112,11 +115,9 @@ h4 {
 footer {
     width: 100%;
     background-color: rgb(255, 254, 220);
-    border-top: 2px dashed rgb(214, 214, 214); 
+    border-top: 2px dashed rgb(214, 214, 214);
     padding: 7px;
-    height: 350px;
-   
-    
+    min-height: 350px;
 }
 
 footer p b {
@@ -136,14 +137,16 @@ footer p {
 
 #footername {
     font-size: 17px;
-    color: rgb(189, 174, 255);
+    color: rgb(255, 220, 145);
     float: left;
     margin-top: 5px;
     margin-left: 0;
+    margin-bottom: 0;
     font-family: 'Life Savers', cursive;
-    text-shadow: 4px 0 3px rgb(255, 220, 145);
+    text-shadow: 4px 0 3px rgb(255, 249, 159);
 
 }
+
 
 .nav-2 {
     display: none;
@@ -175,6 +178,7 @@ hr.hrule {
 
 
 @media (min-width: 768px) {
+
 
 .maincontainer {
   margin-top: 50px;
@@ -242,6 +246,11 @@ h2, h3, h4 {
 
 }
 
+footer {
+    height: 415px;
+
+}
+
 footer p {
     font-size: 18px;
 
@@ -252,10 +261,13 @@ footer p b {
 
 }
 
+
 }
 
 @media (min-width: 1024px) {
-    .maincontainer div {
+
+
+.maincontainer div {
       flex-basis: 33.333%;
       margin: 0;
 }
@@ -290,7 +302,7 @@ nav ul {
 }
 
 ul a {
-    padding: 5px;
+    padding: 20px;
 
 }
 footer p {
@@ -298,29 +310,46 @@ footer p {
 
 }
 
-h2, h3, h4 {
-    font-size: 2rem;
-
-}
 
 footer p b {
     font-size: 20px;
 
 }
 
+
+h2, h3, h4 {
+    font-size: 2rem;
+
+}
+
 p {
     font-size: 20px;
+}
+
+.bottomlink {
+    display: none;
+}
+
+.footerwrapper {
+    margin-bottom: 0;
+
+}
+.nav-2 {
+    display: block;
+    float: right;
+    margin: 85px;
 }
 } 
 
 @media (min-width: 1300px) {
-    #name {
-        margin-left: -820px;
-    }
 
-    .introduction p {
+#name {
+        margin-left: -820px;
+}
+
+.introduction p {
         line-height: 65px;
 
-    }
+}
 
 }

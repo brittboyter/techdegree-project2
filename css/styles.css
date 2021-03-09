@@ -116,6 +116,7 @@ footer {
     background-color: rgb(255, 254, 220);
     border-top: 2px dashed rgb(214, 214, 214); 
     padding: 7px;
+    height: 350px;
    
     
 }
@@ -124,6 +125,7 @@ footer p b {
     background-color: rgb(189, 174, 255);
     color: rgb(255, 249, 159);
     font-size: 12px;
+    
   
 
 }
@@ -135,10 +137,11 @@ footer p {
 }
 
 #footername {
-    font-size: 13px;
+    font-size: 17px;
     color: rgb(189, 174, 255);
     float: left;
-    margin-left: -5px;
+    margin-top: 5px;
+    margin-left: 0;
     font-family: 'Life Savers', cursive;
     text-shadow: 4px 0 3px rgb(255, 220, 145);
 
@@ -149,16 +152,21 @@ footer p {
 }
 
 .bottomlink {
-    font-size: 14px;
+    font-size: 17px;
     float: right;
-    color: rgb(189, 174, 255);
+    margin-top: 8px;
+    margin-right: 0;
+    color: rgb(255, 220, 145);
     text-decoration: none;
     font-weight: bold;
     border-bottom: 2px dashed rgb(214, 214, 214); 
     
+}
 
-   
 
+hr.hrule {
+    border: 1px solid #eee;
+    
 }
 
 .clearfix::after {
@@ -202,6 +210,11 @@ ul {
 ul a {
         padding: 1em;
    
+}
+
+#footername, .bottomlink {
+    font-size: 30px;
+    
 }
 
 .introduction p {

@@ -28,7 +28,7 @@ body {
 
 }
 
-nav ul {
+.nav-1 ul {
     background-color: transparent;
     padding: 0;
     
@@ -117,7 +117,7 @@ footer {
     background-color: rgb(255, 254, 220);
     border-top: 2px dashed rgb(214, 214, 214);
     padding: 7px;
-    min-height: 350px;
+    
 }
 
 footer p b {
@@ -139,9 +139,7 @@ footer p {
     font-size: 17px;
     color: rgb(255, 220, 145);
     float: left;
-    margin-top: 5px;
-    margin-left: 0;
-    margin-bottom: 0;
+    margin: 0;
     font-family: 'Life Savers', cursive;
     text-shadow: 4px 0 3px rgb(255, 249, 159);
 
@@ -179,6 +177,13 @@ hr.hrule {
 
 @media (min-width: 768px) {
 
+.nav-2 {
+        display: inline;
+        float: right;
+        
+    
+}
+
 
 .maincontainer {
   margin-top: 50px;
@@ -214,10 +219,13 @@ ul a {
    
 }
 
-#footername, .bottomlink {
-    font-size: 30px;
+#footername {
+    margin-top: 10px;
+    font-size: 25px;
+    float: left;
     
 }
+
 
 .introduction p {
     padding: 10px;
@@ -246,11 +254,6 @@ h2, h3, h4 {
 
 }
 
-footer {
-    height: 415px;
-
-}
-
 footer p {
     font-size: 18px;
 
@@ -261,11 +264,38 @@ footer p b {
 
 }
 
+.bottomlink {
+    display: none;
+
+}
+
 
 }
 
 @media (min-width: 1024px) {
 
+.nav-1 ul {
+        display: inline;
+        float: right;
+        position: relative;
+        left: -75px;
+        margin: -70px;
+       
+}
+
+.nav-2  {
+    display: inline;
+    float: right;
+    
+    
+
+
+}
+.nav-2 ul a {
+    padding: 23px 23px 0 23px;
+   
+
+}
 
 .maincontainer div {
       flex-basis: 33.333%;
@@ -275,7 +305,10 @@ footer p b {
 .profile-image {
     width: 33%;
 
+
 }
+
+
 
 .introduction p {
     padding: 10px;
@@ -289,20 +322,12 @@ footer p b {
 #name {
     height: 10vh;
     margin-left: -480px;
-}
-
-nav ul {
-    display: inline;
-    float: right;
-    position: relative;
-    left: -75px;
-    margin: -70px;
    
     
 }
 
-ul a {
-    padding: 20px;
+footer {
+    height: 385px;
 
 }
 footer p {
@@ -310,14 +335,12 @@ footer p {
 
 }
 
-
 footer p b {
     font-size: 20px;
-
 }
 
 
-h2, h3, h4 {
+h2, h3 {
     font-size: 2rem;
 
 }
@@ -326,30 +349,6 @@ p {
     font-size: 20px;
 }
 
-.bottomlink {
-    display: none;
 }
 
-.footerwrapper {
-    margin-bottom: 0;
 
-}
-.nav-2 {
-    display: block;
-    float: right;
-    margin: 85px;
-}
-} 
-
-@media (min-width: 1300px) {
-
-#name {
-        margin-left: -820px;
-}
-
-.introduction p {
-        line-height: 65px;
-
-}
-
-}

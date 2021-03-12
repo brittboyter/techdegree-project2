@@ -168,6 +168,12 @@ hr.hrule {
     
 }
 
+.portpics, .introduction {
+    text-align: center;
+
+
+}
+
 .clearfix::after {
     content: "";
     clear: both;
